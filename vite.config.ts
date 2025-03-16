@@ -7,9 +7,10 @@ export default defineConfig({
   plugins: [tsconfigPaths(), react(), tailwindcss()],
   resolve: {
     alias: {
-      "@pages": "/src/pages",
+      "@": "/src",
       "@widget": "/src/widget",
-      "@layout": "/src/widget/layout"
+      "@layout": "/src/widget/layout",
+      "@router": "/src/router"
     }
   }
 })

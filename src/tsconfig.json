@@ -1,17 +1,15 @@
 {
 	"compilerOptions": {
-	  "jsx": "react-jsx",
-	  "baseUrl": "src",
-	  "module": "esnext",
-	  "moduleResolution": "node",
-	  "allowSyntheticDefaultImports": true,
-	  "paths": {
-		 "@widget/*": ["widget/*"],
-		 "@pages/*": ["pages/*"],
-		 "@layout/*": ["widget/layout/*"]
-	  },
-	  "target": "ESNext",
-	  "lib": ["DOM", "ESNext"]
-	}
+		"jsx": "react-jsx",
+      "baseUrl": ".",
+      "paths": {
+        "@utils/*": ["src/utils/*"],
+        "@components/*": ["src/components/*"],
+        "@router/*": ["src/router/*"] ,
+        "@widget/*": ["src/widget/*"]
+
+        
+      }
+    }
  }
  

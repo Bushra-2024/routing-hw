@@ -1,9 +1,9 @@
-import { NavLink, Outlet } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router'
 import logo from '../../assets/1000_F_397480131_ifXqWNKVteOhczWDJBeODrnMIbVcVp13.jpg'
 const Layout = () => {
 	return (
 		<div className='flex h-screen '>
-			<aside className='w-[20%] pt-4 bg-black border-r-4 border-white text-white'>
+			<aside className='lg:w-[20%] pt-4 bg-black border-r-4 border-white text-white'>
 				<ul className='leading-[50px]'>
 					<img src={logo} className='w-40 m-2' />
 					<li>
